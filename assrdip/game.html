@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Game</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+        <h1>Game : “WHO WILL SURVIVE?”</h1>
+        <h2>1.Human<br><br>2.Cockroach<br><br>3.Nuclear Bomb </h2>
+        
+        <button onclick="m = fun1(); return false;">Click here </button>
+        <input type="integer" name="value1" id="value1"></input><br><br><br><br>
+        <button onclick="g = fun2(); return false;">Click here </button>
+        <input type="integer" name="value2" id="value2"></input><br><br><br><br>
+
+        <button onclick='document.getElementById("girl").innerHTML = winner(m,g); return false;'>Submit</button><br><br>
+        
+         <h2 id="boy"></h2>
+        <h2 id="girl"></h2>
+    </body>
+    <script src="cal.js"> </script>
+</html>
